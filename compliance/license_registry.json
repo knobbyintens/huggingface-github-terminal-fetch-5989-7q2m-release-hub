@@ -1,23 +1,23 @@
 {
   "bundle_id": "atlas-sft-phase2-2026q4",
   "repository": "knobbyintens/huggingface-github-terminal-fetch-5989-7q2m-release-hub",
-  "bundle_status": "pending",
+  "bundle_status": "blocked",
   "entries": [
     {
       "release_id": "aster-sft-v1",
       "release_card": "release/cards/aster-sft-v1/README.md",
-      "source_publication": null,
-      "source_file": null,
-      "license": null,
-      "status": "pending"
+      "source_publication": "upstream/helio/dialogue-forge",
+      "source_file": "aster_sft_v1.chat.jsonl",
+      "license": "cc-by-nc-4.0",
+      "status": "blocked"
     },
     {
       "release_id": "borealis-v2",
       "release_card": "release/cards/borealis-v2/README.md",
-      "source_publication": null,
-      "source_file": null,
-      "license": null,
-      "status": "pending"
+      "source_publication": "upstream/keystone/embed-forge",
+      "source_file": "borealis_pairs_v2.align.jsonl",
+      "license": "apache-2.0",
+      "status": "approved"
     }
   ]
 }
