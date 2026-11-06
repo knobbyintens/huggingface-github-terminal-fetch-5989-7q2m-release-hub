@@ -1,0 +1,44 @@
+{
+  "bundle_id": "atlas-sft-phase2-2026q4",
+  "bundle_name": "Atlas Phase-2 open release bundle",
+  "frozen_at": "2026-10-30",
+  "repository": "knobbyintens/huggingface-github-terminal-fetch-5989-7q2m-release-hub",
+  "policy": "governance/license_policy.md",
+  "releases": [
+    {
+      "release_id": "aster-sft-v1",
+      "release_card": "release/cards/aster-sft-v1/README.md",
+      "attribution": "Adapted from the original corpus curated by the Helio Research team. The exact upstream publication was not recorded when this release was frozen.",
+      "artifact": {
+        "file": "aster_sft_v1.chat.jsonl",
+        "rows": 200,
+        "schema": [
+          "conversation_id",
+          "turn_index",
+          "role",
+          "content",
+          "token_count",
+          "source_doc_id"
+        ],
+        "sha256": "9c1545e33a940915ba590dd1b36d5e6eabb3ba687578f49266716b97d680ceef"
+      }
+    },
+    {
+      "release_id": "borealis-v2",
+      "release_card": "release/cards/borealis-v2/README.md",
+      "attribution": "Adapted from the original encoder corpus assembled by the Keystone Analytics team. The exact upstream publication was not recorded when this release was frozen.",
+      "artifact": {
+        "file": "borealis_pairs_v2.align.jsonl",
+        "rows": 200,
+        "schema": [
+          "pair_id",
+          "query",
+          "response",
+          "lang",
+          "quality_score"
+        ],
+        "sha256": "6a61ce69b04533c9225b4c4dabff1c76ccaf30f226da1a5920687e01bd2074d4"
+      }
+    }
+  ]
+}
