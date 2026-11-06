@@ -34,6 +34,6 @@ fill in `source_publication` (the exact upstream publication folder), `source_fi
 
 ## 5. Blocked releases
 
-For every release with status `blocked`, open a tracking issue in this repository
-titled `License review required: {release_id}`. The issue body must name the exact
-source publication and its declared license so legal can act on it.
+For every release with status `blocked`, record an escalation note in this repository
+at `compliance/escalations/{release_id}.md`. The note must state the exact source
+publication and its declared license so legal can act on it.
